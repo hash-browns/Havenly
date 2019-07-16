@@ -4,4 +4,5 @@
 ### npm install cypress --save-dev
 ##  node_modules/.bin/cypress open
 
-/Users/joshuabrown/Havenly/cypress/integration/examples
+mv cypress_tests.js /Users/joshuabrown/Havenly/cypress/integration/examples
+
