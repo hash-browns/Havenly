@@ -2,9 +2,8 @@ describe('The Home Page', function() {
   
   it('Loads all 3 package cards', function() {     
   	cy.visit('https://havenly.com/')
-       cy.get(':nth-child(1) > ._3lL31l4BXmLfUZA61SSu3T').contains('Havenly Consult') //3lL31l4BXmLfUZA61SSu3T is the class applied to the 3 pacakges cards
-       cy.get(':nth-child(2) > ._3lL31l4BXmLfUZA61SSu3T').contains('Havenly Mini')
-       cy.get(':nth-child(3) > ._3lL31l4BXmLfUZA61SSu3T').contains('Havenly Full')
+       cy.get(':nth-child(1) > .styles_Root__-2dvc').contains('Havenly Mini') //3lL31l4BXmLfUZA61SSu3T is the class applied to the 3 pacakges cards
+       cy.get(':nth-child(1) > .styles_Root__-2dvc').contains('Havenly Full')
      
   })
 
