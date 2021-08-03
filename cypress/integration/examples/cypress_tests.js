@@ -1,6 +1,6 @@
 describe('The Home Page', function() {
   
-  it('Loads all 3 package cards', function() {     
+  it('Loads both package cards', function() {     
   	cy.visit('https://havenly.com/')
        cy.get(':nth-child(1) > .styles_Root__-2dvc').contains('Havenly Mini') //3lL31l4BXmLfUZA61SSu3T is the class applied to the 3 pacakges cards
        cy.get(':nth-child(2) > .styles_Root__-2dvc').contains('Havenly Full')
